@@ -1,0 +1,167 @@
+.Hero {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 17vh;
+  position: relative;
+
+  .textContent {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 23px;
+
+    span {
+      color: $red;
+    }
+  }
+
+  .text {
+    color: rgb(199, 199, 199);
+    text-align: center;
+    line-height: 2;
+  }
+
+  .desktopText {
+    display: none;
+  }
+
+  .projectsLink {
+    padding: 10px;
+    border: 2px double;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgba(255, 1, 1, 0.71);
+
+    &:hover .arrowIcon {
+      translate: 7px 0;
+      transition: 0.2s;
+    }
+
+    .snipe {
+      animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .arrowIcon {
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .linkTo {
+      color: none;
+    }
+    // animated button
+
+    //   .box3 {
+    //     margin-top: 30px;
+    //   }
+
+    //   .btnThree {
+    //     color: #fff;
+    //     transition: all 0.5s;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     position: relative;
+    //     font-weight: bold;
+    //     cursor: pointer;
+    //     padding: 20px;
+    //   }
+
+    //   .btnThree::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: 1;
+    //     background-color: rgba(232, 232, 232, 0.1);
+    //     border-radius: 20px;
+    //     transition: all 0.3s;
+    //   }
+
+    //   .btnThree:hover::before {
+    //     opacity: 0;
+    //     transform: scale(0.5, 0.5);
+    //   }
+
+    //   .btnThree::after {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: 1;
+    //     opacity: 0;
+    //     transition: all 0.3s;
+    //     border: 1px solid rgba(55, 55, 55, 0.5);
+    //     border-radius: 20px;
+    //     transform: scale(1.2, 1.2);
+    //   }
+
+    //   .btnThree:hover::after {
+    //     opacity: 1;
+    //     transform: scale(1, 1);
+    //   }
+    // }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .Hero {
+    width: 100%;
+    height: 400px;
+    margin: 17vh auto;
+    align-items: flex-start;
+    padding: 0 100px;
+    margin-top: 25vh;
+
+    .title {
+      font-size: 2em;
+    }
+
+    .text {
+      display: none;
+    }
+
+    .desktopText {
+      width: 600px;
+      text-align: start;
+      color: rgb(199, 199, 199);
+      line-height: 2;
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .Hero {
+    .title {
+      font-size: 2.5em;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.Events {
+  font-family: $font;
+  margin-top: 130px;
+
+  .container {
+    @include flexbox(column, center, flex-start, 20px);
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+    @include desktop {
+      @include flexbox(row, space-between, center);
+      margin-right: 120px;
+      margin-bottom: 40px;
+    }
+
+    @include tablet {
+      @include flexbox(row, space-between, center);
+      margin-right: 80px;
+      margin-bottom: 40px;
+    }
+
+    .buttons {
+      @include flexbox(row, flex-end, center, 10px);
+      padding-left: 20px;
+
+      .button {
+        background-color: $white;
+        color: $dark;
+        border: none;
+        padding: 7px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .subtitle {
+      @include tablet {
+        margin-left: 40px;
+      }
+
+      @include desktop {
+        margin-left: 80px;
+      }
+    }
+  }
+
+  p {
+    color: $orange;
+    font-size: $body-mobile;
+    font-weight: bold;
+    padding-left: 20px;
+
+    @include tablet {
+      font-size: $body-desktop;
+      padding-left: 40px;
+    }
+
+    @include desktop {
+      font-size: $h4-desktop;
+      padding-left: 40px;
+    }
+  }
+}

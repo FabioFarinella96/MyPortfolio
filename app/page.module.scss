@@ -1,0 +1,27 @@
+.main {
+  .avatar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .main {
+    .avatar {
+      display: inline;
+      position: absolute;
+      bottom: 0;
+      right: 20%;
+      animation-name: avatarAnimation 3s;
+    }
+  }
+
+  @keyframes avatarAnimation {
+    // 0% {
+    //   transform: translateY(200%);
+    // }
+
+    100% {
+      transform: translateY(280%);
+    }
+  }
+}

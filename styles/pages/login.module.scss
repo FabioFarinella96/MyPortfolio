@@ -1,0 +1,126 @@
+.Login {
+  width: 100%;
+  height: 80vh;
+  font-family: $font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+
+  .loginContext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    .loginText {
+      font-size: $h1-mobile;
+      font-weight: 500;
+
+      @include tablet {
+        font-size: $h3-desktop;
+      }
+
+      @include desktop {
+        font-size: 3em;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .exploreAppBtn {
+        background-color: $orange;
+        color: $white;
+        font-weight: 700;
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 20px;
+        font-size: $h3-mobile;
+        cursor: pointer;
+      }
+
+      .logOutBtn {
+        background-color: $mid-grey;
+        color: $white;
+        font-weight: 700;
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 20px;
+        font-size: $h3-mobile;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .container {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    @include tablet {
+      width: 620px;
+    }
+
+    @include desktop {
+      width: 620px;
+    }
+
+    .title {
+      font-size: 35px;
+      color: $orange;
+      @include tablet {
+        font-size: 4em;
+      }
+
+      @include desktop {
+        font-size: 4em;
+      }
+
+      .colorTitle {
+        color: $white;
+      }
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 12px 12px;
+      border: 0;
+      border-radius: 20px;
+      font-size: $h3-mobile;
+      font-weight: 700;
+      cursor: pointer;
+
+      .googleIcon {
+        font-size: 30px;
+      }
+    }
+  }
+}

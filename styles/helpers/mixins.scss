@@ -1,0 +1,26 @@
+// width and height of an element
+// @param $width: The width size.
+// @param $height: The height size @default same of $width.
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// --------------------------------------------------
+// Flexbox SASS mixins
+// --------------------------------------------------
+
+@mixin flexbox(
+  $direction: row,
+  $justify: flex-start,
+  $align: flex-start,
+  $gap: 0px,
+  $wrap: nowrap
+) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+  flex-wrap: $wrap;
+}
