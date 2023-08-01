@@ -1,4 +1,5 @@
-![image](https://github.com/FabioFarinella96/MyPortfolio/assets/121029029/d01f1c73-d042-4d7b-9070-15d194104a2a)
+![image](https://github.com/FabioFarinella96/MyPortfolio/assets/121029029/6224f4c5-7f65-4729-a4a6-98710de36d98)
+
 
 
 
