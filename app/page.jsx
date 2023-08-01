@@ -20,6 +20,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Image
+          priority
           className={styles.avatar}
           src="/avatar.png"
           width={450}
