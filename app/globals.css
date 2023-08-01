@@ -17,5 +17,5 @@ body {
     rgba(16, 17, 94, 1) 1%,
     rgba(25, 14, 53, 1) 100%
   );
-  color: $white;
+  color: white;
 }
