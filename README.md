@@ -1,3 +1,8 @@
+![image](https://github.com/FabioFarinella96/MyPortfolio/assets/121029029/6224f4c5-7f65-4729-a4a6-98710de36d98)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
