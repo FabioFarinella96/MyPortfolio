@@ -4,18 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sora", sans-serif;
+  font-family: Sora, sans-serif;
 }
 
 html,
 body {
   width: 100%;
-  background: rgb(25, 14, 53);
-  background: rgb(16, 17, 94);
-  background: radial-gradient(
-    circle,
-    rgba(16, 17, 94, 1) 1%,
-    rgba(25, 14, 53, 1) 100%
-  );
+  background-color: rgb(25, 14, 53);
   color: white;
 }

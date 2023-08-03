@@ -20,12 +20,6 @@ const Hero = () => {
           riguarda me: informazioni personali, contatti per connetterci e i
           progetti sviluppati. Esplora, scopri e lasciati ispirare!
         </p>
-        {/* animated button  */}
-        {/* <div className={styles.box3}>
-          <div className={styles.btnThree}>
-          <span>Visualizza progetti</span>
-          </div>
-        </div> */}
       </div>
       <div className={styles.projectsLink}>
         <Link href={"/works"} className={styles.linkTo}>

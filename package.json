@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:css": "stylelint 'src/**/*.css' 'src/**/*.scss'"
   },
   "dependencies": {
     "framer-motion": "^10.13.0",
@@ -17,5 +18,9 @@
     "react-icons": "^4.10.1",
     "sass": "^1.64.0",
     "swiper": "^10.0.4"
+  },
+  "devDependencies": {
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard": "^34.0.0"
   }
 }
