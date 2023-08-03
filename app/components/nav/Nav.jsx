@@ -4,8 +4,7 @@ import Link from "next/link";
 import styles from "./index.module.scss";
 import { HiHome, HiUser, HiViewColumns } from "react-icons/hi2";
 
-import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
