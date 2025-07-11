@@ -74,7 +74,10 @@ export default function Works() {
     <div className={styles.Works}>
       <h1 className={styles.title}>Progetti</h1>
       <p className={styles.text}>
-        Di seguito alcuni dei progetti sviluppati durante il mio percorso.
+        <p className={styles.text}>
+          Utilizzo tecnologie moderne per garantire performance, sicurezza e
+          un’esperienza utente ottimale.
+        </p>
       </p>
       <Swiper
         effect={"coverflow"}

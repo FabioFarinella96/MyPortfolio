@@ -38,12 +38,6 @@ const Header = () => {
             {social.socialIcon}
           </Link>
         ))}
-        <button className={styles.downloadCvBtn}>
-          <a href="assets/cv.pdf" download>
-            CV
-          </a>
-          <FiDownloadCloud className={styles.icon} />
-        </button>
       </div>
     </div>
   );

@@ -11,14 +11,24 @@ const Hero = () => {
       </h2>
       <div className={styles.textContent}>
         <p className={styles.text}>
-          Sono Fabio, Front End Developer. <br /> Qui troverai tutto ciò che
-          riguarda me: informazioni personali, contatti per connetterci e i
-          progetti sviluppati. <br /> Esplora, scopri e lasciati ispirare!
+          Sono Fabio, sviluppatore web specializzato nella realizzazione di
+          <span className={styles.bold}> siti web</span>,
+          <span className={styles.bold}> siti vetrina</span> e
+          <span className={styles.bold}> landing page</span> su misura per la
+          tua attività.
+          <br />
+          Scopri chi sono, guarda alcuni progetti e contattami per dare vita
+          alla tua presenza online!
         </p>
         <p className={styles.desktopText}>
-          Sono Fabio, Front End Developer. <br /> Qui troverai tutto ciò che
-          riguarda me: informazioni personali, contatti per connetterci e i
-          progetti sviluppati. Esplora, scopri e lasciati ispirare!
+          Sono Fabio, sviluppatore web specializzato nella realizzazione di
+          <span className={styles.bold}> siti web</span>,
+          <span className={styles.bold}> siti vetrina</span> e
+          <span className={styles.bold}> landing page</span> su misura per la
+          tua attività.
+          <br />
+          Scopri chi sono, guarda alcuni progetti e contattami per dare vita
+          alla tua presenza online!
         </p>
       </div>
       <div className={styles.projectsLink}>

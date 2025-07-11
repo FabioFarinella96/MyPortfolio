@@ -34,21 +34,25 @@ export default function About() {
       <div className={styles.About}>
         <section className={styles.container}>
           <h2 className={styles.title}>
-            Pixel Perfetti: <br /> La Mia Avventura nel Mondo dello{" "}
-            <span>Sviluppo Web</span>
+            Dalla Passione al Professionismo: Creo <span> Siti Web</span> Che
+            Comunicano
           </h2>
           <p className={styles.text}>
-            Fin da ragazzino, ho coltivato due grandi passioni: la musica e la
-            tecnologia. Amo suonare la batteria e immergermi nei videogiochi. Di
-            recente, ho scoperto il mondo della programmazione e, in
-            particolare, lo sviluppo front end. Con il passare del tempo, questa
-            nuova sfida mi sta appassionando sempre di più. Il mio percorso nel
-            campo dello sviluppo web ha avuto inizio frequentando un corso di
-            formazione, dove ho acquisito le basi fondamentali. Tuttavia, la mia
-            sete di conoscenza mi ha spinto a continuare ad apprendere
-            autonomamente, scoprendo nuove tecnologie e affrontando stimolanti
-            progetti sia da solo che collaborando con altre persone. Sono una
-            persona estremamente curiosa e sempre alla ricerca di nuovi stimoli.
+            Sono un front end developer con una forte passione per il design e
+            l’usabilità. Oggi mi occupo di aiutare liberi professionisti,
+            aziende e brand a creare siti vetrina efficaci e landing page ad
+            alto impatto, pensati per raccontare al meglio i loro servizi. Mi
+            aggiorno costantemente sulle tecnologie più moderne e curo ogni
+            dettaglio, dalla struttura alla grafica, per offrire soluzioni
+            personalizzate e performanti.
+          </p>
+          <p className={styles.text}>
+            Che tu abbia bisogno di
+            <b> lanciare un nuovo prodotto </b> o
+            <b> presentare la tua attività sul web </b>, sono qui per
+            trasformare le tue idee in una
+            <b> presenza online </b>
+            concreta e professionale.
           </p>
         </section>
         <section className={styles.viewContainer}>
