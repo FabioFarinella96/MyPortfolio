@@ -33,39 +33,9 @@ export const projects = [
     link: "https://github.com/FabioFarinella96/CurrentWeatherApp-Angular",
   },
   {
-    name: "Iphone Calculator Clone",
-    image: "/assets/projectsImages/4.png",
-    link: "https://github.com/FabioFarinella96/Iphone-Calculator-Clone",
-  },
-  {
-    name: "Taskify",
-    image: "/assets/projectsImages/6.png",
-    link: "https://github.com/FabioFarinella96/React-Typescript-TodoList",
-  },
-  {
-    name: "CocktailHouse",
-    image: "/assets/projectsImages/7.png",
-    link: "https://github.com/FabioFarinella96/cocktail-app",
-  },
-  {
-    name: "All you can find e-commerce",
-    image: "/assets/projectsImages/8.png",
-    link: "https://github.com/FabioFarinella96/e-commerce",
-  },
-  {
-    name: "Il prodotto che cerchi",
-    image: "/assets/projectsImages/9.png",
-    link: "https://github.com/FabioFarinella96/IlProdottoCheCerchi",
-  },
-  {
     name: "Buy&Rent",
     image: "/assets/projectsImages/2.png",
     link: "https://github.com/FabioFarinella96/BuyAndRent",
-  },
-  {
-    name: "My old Portfolio",
-    image: "/assets/projectsImages/10.png",
-    link: "https://github.com/FabioFarinella96/Portfolio",
   },
 ];
 
