@@ -37,6 +37,11 @@ export const projects = [
     image: "/assets/projectsImages/2.png",
     link: "https://github.com/FabioFarinella96/BuyAndRent",
   },
+  {
+    name: "Music store (demo)",
+    image: "/assets/projectsImages/11.png",
+    link: "https://music-store-demo.netlify.app/",
+  },
 ];
 
 export default function Works() {
