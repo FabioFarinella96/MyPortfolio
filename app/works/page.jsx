@@ -23,7 +23,12 @@ export const projects = [
     link: "https://project-cb6-terence-hill.vercel.app/",
   },
   {
-    name: "GamesCenter",
+    name: "Gino Ai Assistant",
+    image: "/assets/projectsImages/12.png",
+    link: "https://gino-ai-assistant.vercel.app/",
+  },
+  {
+    name: "Games Center",
     image: "/assets/projectsImages/3.png",
     link: "https://github.com/FabioFarinella96/GamesCenter",
   },
