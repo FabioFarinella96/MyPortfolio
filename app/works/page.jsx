@@ -5,7 +5,7 @@ import Nav from "../components/nav";
 import Transition from "../components/transition";
 import Header from "../components/header";
 import { RiExternalLinkLine } from "react-icons/ri";
-
+import { projects } from "../utils/projects";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
@@ -15,39 +15,6 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
-export const projects = [
-  {
-    name: "EventHub",
-    image: "/assets/projectsImages/1.png",
-    link: "https://project-cb6-terence-hill.vercel.app/",
-  },
-  {
-    name: "Gino Ai Assistant",
-    image: "/assets/projectsImages/12.png",
-    link: "https://gino-ai-assistant.vercel.app/",
-  },
-  {
-    name: "Games Center",
-    image: "/assets/projectsImages/3.png",
-    link: "https://github.com/FabioFarinella96/GamesCenter",
-  },
-  {
-    name: "Current Weather App",
-    image: "/assets/projectsImages/5.png",
-    link: "https://github.com/FabioFarinella96/CurrentWeatherApp-Angular",
-  },
-  {
-    name: "Buy&Rent",
-    image: "/assets/projectsImages/2.png",
-    link: "https://github.com/FabioFarinella96/BuyAndRent",
-  },
-  {
-    name: "Music store (demo)",
-    image: "/assets/projectsImages/11.png",
-    link: "https://music-store-demo.netlify.app/",
-  },
-];
 
 export default function Works() {
   return (
